@@ -1,0 +1,36 @@
+.timer_contener{
+	display: flex;
+}
+
+.timer_contener div{
+	font-size: 90px;
+	margin: 4rem;
+	margin-left: 0;
+	color: white;
+}
+
+.time{
+	display: flex;
+	flex-direction: column;
+}
+
+.time span:nth-child(2){
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+	.timer_contener{
+		width: 100%;
+	}
+	.timer_contener div{
+		font-size: 45px;
+		margin: 1rem;
+		margin-left: 0;
+		margin-top: 3rem;
+	}
+
+	.time span:nth-child(2){
+		font-size: 16px;
+	}
+}
